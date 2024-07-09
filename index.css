@@ -1,0 +1,310 @@
+*{
+    margin:0;
+    font-family: arial;
+    border:border-box;
+}
+
+#navbar1{
+    height:60px;
+    background-color: #0f1111;
+    color:#ffffff;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#img1{
+    width:80px;
+    height:25px;
+}
+#nav2a{
+    text-decoration: none;
+    color: white; margin:0%;
+}
+#deliver{
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left: 12px;
+}
+#india{
+    display:flex;
+    font-size: 1rem;
+}
+#nav3{
+    width:900px;
+    height:60px;
+    margin:0px;
+    align-items: center;
+    display:flex;
+}
+#services{
+    height:42px;
+    width:48px;
+    border-width: 0;
+    background-color: #a9a9a9;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#searchamazon{
+    height:35px;
+    width:803.91px;
+    border-width: 0;
+    margin: 0%; padding: 0px;
+    padding-left: 15px;
+    padding: 3.5px;
+}
+#search{
+    background-color: orange;
+    height:22px; width:20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    align-items: center;
+    padding: 10px;
+}
+#nav4{ 
+    display:flex;
+    align-items: center;}
+#usflag{
+    height:16px;width:28px;
+}
+#hello{
+    font-size: 0.85rem;
+}
+#account{
+    display:flex;
+    font-size: 1rem;
+}
+#nav7{ 
+    display:flex;
+    align-items: center;}
+.border{
+    border:1px solid none;
+    height:50px;
+    padding-top: 15px;
+}
+.border:hover{
+    border:1px solid white;
+}
+#navbar2{
+    background-color: #1f3b4d;
+    color:#ffffff;
+    height:39px;
+    width:100%;
+    display:flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+ }
+ #navbar2b{
+    display:flex;
+ }
+ #navbar2a{
+    margin-left: 20px;
+    font-weight: bold;
+    margin:13px;
+    height: 38px;
+    display: inline-flex;align-items: center;
+    border:1px bold none;
+ }
+ #navbar2a :hover{
+    border:1px bold white;}
+ .navbar2links{
+    margin:7px;
+    font-size: 14px;
+    height:38px;
+    display: inline-flex;align-items: center;
+
+ }
+ .navbar2links{
+    border:1px bold none;}
+ .navbar2links:hover{
+    border:1px bold white;
+ }
+/* header tag ends */
+
+#main1{
+    background-image: url(/backgroundimgamazon.jpg);
+    background-size: cover;
+    margin-left: 10px ;
+    margin-right: 10px;
+}
+#ltgt{
+    justify-content: space-between;
+    display: flex;
+}
+#button1{
+    display: inline-block; 
+    align-items: center;
+    border: 2px solid none;
+}
+#button2{
+    display: inline-block;
+    align-items: center;
+    border: 2px solid none;
+}
+#button1,#button2:hover{
+    border: 2px solid white;
+}
+#lt{height:250px; width:80px;}
+#gt{height:250px; width:80px;}
+#para1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#para1a{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    background-color:#f5f6f6;
+    height:40px;
+    width:95%;
+    align-items: center;
+}
+.para1b{
+    color:cornflowerblue;
+}
+.para1b:hover{
+    color:red;
+    text-decoration: red;
+}
+#main2{
+    background-color: #ffe6ff;
+    margin-left: 10px ;
+    margin-right: 10px;
+}
+#flexboxdivs{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.navbar2links:hover{
+    border:1px solid white;}
+.flexbox{
+    padding: 10px;
+    height:420;
+    width: 330px;
+    background-color: white;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+h2{
+    font-size:21px;
+}
+#Gaming{
+    display: flex;
+    /* justify-content: space-evenly; */
+    font-size: 12px;
+    justify-content: center;
+}
+.gaminga{
+    width:150px;
+    height:110px;
+    border: 0px;
+}
+table{
+    padding: 0%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+#pcimage{
+    width: 320px;
+    margin-top: 18px;
+    height:240px;
+}
+#img21,#img22{
+    height:290px;
+    width: 300px;
+    margin-left: 18px;
+    margin-top: 18px;
+}
+#bottoma{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+#bottom{
+    height:126px;
+    width:100%;
+    align-items: center;
+}
+button{
+    background-color: yellow;
+    width:230px;
+    height:28px;
+    font-weight: bold;
+    color: black;
+    margin:10px;
+}
+#footera{
+    height:49px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f1111 ;
+    color: white;
+}
+#footertable{
+    margin: 0px;
+    background-color: #232F3F ;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+    padding: 80px;
+}
+#td{
+    padding: 15px;
+}
+li{
+    padding: 4px;
+    font-size: 13px;
+}
+table{
+    align-content: flex-start;
+}
+#footerc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #232F3F;
+    height:100px;
+    margin-bottom: 0px;
+}
+.threedivs{
+    border: 1px solid white;
+    display:inline-block;
+    color:#cccccc;
+    margin:6px;
+    padding:4px;}
+#footerd{
+    height:500px;
+    background-color:  #131a22 ;
+    color:#cccccc;
+    font-size: 12px;
+    margin-top: 0px;
+}
+#tableend{
+    padding:25px;
+    width:100px;
+}
+#lasttable{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.bold{
+    font-weight: bold;
+    color: #ffffff;
+}
+.last{
+    color:#cccccc;
+    font-size: 12px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
